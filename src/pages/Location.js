@@ -10,7 +10,6 @@ export default function App() {
     longitude:85.0937,
     latitude:25.7,
   });
-  const uri='pk.eyJ1IjoibXVubmEta3VtYXItMjciLCJhIjoiY2xqMHhvajB0MTBzbzNlcWhnNnJsY284NyJ9.fEu392Hg-igzP9hx8rK-6Q'
 
   const [marker, setMarker] = React.useState({
     latitude: viewport.latitude,
@@ -80,7 +79,7 @@ export default function App() {
           height="100%"
           onViewportChange={setViewport}
           mapStyle="mapbox://styles/mapbox/streets-v11"
-          mapboxApiAccessToken={uri}
+          mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
         >
           <Marker
             latitude={marker.latitude}
