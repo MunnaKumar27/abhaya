@@ -4,6 +4,7 @@ import MarkrPNG from "../assets/images/marker1.png";
 import { Box } from "@chakra-ui/react";
 import { FaShareAlt } from "react-icons/fa";
 
+
 export default function App() {
   const [viewport, setViewport] = React.useState({
     zoom: 8,
