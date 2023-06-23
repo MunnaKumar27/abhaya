@@ -93,7 +93,7 @@ export default function App() {
           <div className="nav-control">
             <NavigationControl />
           </div>
-          <div className="gg">
+          <div className="bgd">
           <GeolocateControl />
           </div>
           
@@ -123,7 +123,7 @@ export default function App() {
           padding:10px;
           transform: translateX(-50%);
         }
-        .gg{
+        .bgd{
           padding:10px;
 
         }
