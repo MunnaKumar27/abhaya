@@ -13,8 +13,8 @@ const CardData = [
   {
     id: 1,
     image: require('../assets/images/Women- homepage.jpeg'),
-    name: 'vishal',
-    call: '9789844612',
+    name: 'Anu',
+    call: '7050378525',
   },
   {
     id: 2,
